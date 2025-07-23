@@ -5,6 +5,7 @@ $(function() {
 
         //入力データを取得
         let input_no = $("[name='no']").val();
+        let input_name = $("[name='name']").val();
         let input_score = $("[name='score']").val();
         $.ajax({
             //送信方法
@@ -14,7 +15,8 @@ $(function() {
             //送信データの設定
             data: {
                 no: input_no,
-                score: input_score
+                score: input_score,
+                name: input_name
             },
         }).done(function(data){
 

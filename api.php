@@ -1,6 +1,7 @@
 <?php
 
 $msg_no = "学籍番号： ".$_POST['no'];
+$msg_no = "氏名： ".$_POST['name'];
 $msg_score = "点数： ".$_POST['score'];
 
 // 返却するデータを作成（PHPの連想配列）
