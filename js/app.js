@@ -15,7 +15,7 @@ $(function() {
             data: {
                 no: input_no,
                 score: input_score
-            }
+            },
         }).done(function(data){
 
             //JSONデータを解析
